@@ -3,6 +3,8 @@
 //doubleChar("AAbb") → "AAAAbbbb"
 //doubleChar("Hi-There") → "HHii--TThheerree"
 
+// Java
+
 public String doubleChar(String str) {
   String x = "";
   for (char c : str.toCharArray()) {
@@ -11,6 +13,8 @@ public String doubleChar(String str) {
   }
   return x;
 }
+
+// C#
 
 public string doubleChar(string str) {
   string x = "";
