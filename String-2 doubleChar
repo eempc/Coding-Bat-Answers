@@ -1,0 +1,22 @@
+//Given a string, return a string where for every char in the original, there are two chars.
+//doubleChar("The") → "TThhee"
+//doubleChar("AAbb") → "AAAAbbbb"
+//doubleChar("Hi-There") → "HHii--TThheerree"
+
+public String doubleChar(String str) {
+  String x = "";
+  for (char c : str.toCharArray()) {
+    x += c;
+    x += c;
+  }
+  return x;
+}
+
+public string doubleChar(string str) {
+  string x = "";
+  foreach (char c in str) {
+    x += c;
+    x += c;
+  }
+  return x;
+}
